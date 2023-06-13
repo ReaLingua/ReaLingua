@@ -11427,11 +11427,16 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  background: url(../imgs/header.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: scroll;
   overflow: hidden;
+  background-attachment: scroll; /* Change 'fixed' to 'scroll' */
+  -webkit-background-clip: content-box; /* Add vendor prefix */
+  -moz-background-clip: content-box; /* Add vendor prefix */
+  background-clip: content-box;
 }
+
+
 
 
 .header .overlay {
