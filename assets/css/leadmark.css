@@ -11424,12 +11424,11 @@ textarea.form-control {
 }
 
 .header {
-  background-attachment: scroll;
-  position: relative;
+  position: fixed;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
-  background-size: auto;
+  background: url(../imgs/header.png) no-repeat center center fixed;
+  background-size: cover;
   overflow: hidden;
 }
 
