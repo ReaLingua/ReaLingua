@@ -11427,7 +11427,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-     background: url(../imgs/header.jpg);
+     background: url("../imgs/header.jpg");
 
     background-attachment: fixed;
     -o-background-size: cover;
