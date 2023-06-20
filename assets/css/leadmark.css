@@ -51,7 +51,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: system-ui;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -68,7 +68,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: system-ui;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -11427,17 +11427,10 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center;
+  background: url(../imgs/header1.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
-  background-attachment: scroll; /* Change 'fixed' to 'scroll' */
-  -webkit-background-clip: content-box; /* Add vendor prefix */
-  -moz-background-clip: content-box; /* Add vendor prefix */
-  background-clip: content-box;
 }
-
-
-
 
 .header .overlay {
   position: absolute;
@@ -11445,7 +11438,7 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.65);
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
