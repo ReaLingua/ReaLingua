@@ -11430,11 +11430,6 @@ textarea.form-control {
   background: url(../imgs/header1.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
-  background-attachment: scroll; /* Change 'fixed' to 'scroll' */
-  -webkit-background-clip: content-box; /* Add vendor prefix */
-  -moz-background-clip: content-box; /* Add vendor prefix */
-  background-clip: content-box;
-}
 }
 
 .header .overlay {
